@@ -268,4 +268,6 @@ The `gatsby-config.js` file is a special file that Gatsby recognizes automatical
 
 After you update your `gatsby-config.js` file, your local development server has to restart in order to pick up the new changes. Sometimes it will restart itself automatically, but if you’re seeing unexpected behavior, try stopping and restarting it yourself.
 
+## Query for Data with GraphQL
 
+[How To GraphQL][graphqltutorial] is a free tutorial that teaches you the fundamentals.

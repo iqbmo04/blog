@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Blogging Website by Ashish Singh Baghel`,
+    title: `Tech hacks by Ashish`,
     siteUrl: `https://www.techhackswithash.com`
   },
   plugins: [
@@ -32,6 +32,13 @@ module.exports = {
         "path": "./src/pages/"
       }, 
       __key: "pages"
+    },
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        "name": `blog`,
+        "path": `${__dirname}/blog`,
+      }
     }
   ] 
 };
