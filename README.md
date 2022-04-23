@@ -30,7 +30,13 @@ If you already have VS Code and Docker installed, you can click the badge above 
 schema at http://localhost:8000/___graphql
 
 ---
-
+<details>
+  <summary align="left" style="color:yellow;"> 
+    <font size="+1">
+      Learn Fundamentals ...
+    </font> 
+  </summary>
+  
 ## 👨‍💻 Learn some fundamentals for web development
 
 Fundamentals
@@ -275,3 +281,5 @@ After you update your `gatsby-config.js` file, your local development server has
 ## Query for Data with GraphQL
 
 [How To GraphQL][graphqltutorial] is a free tutorial that teaches you the fundamentals.
+
+</details>
