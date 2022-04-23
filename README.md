@@ -29,6 +29,8 @@ If you already have VS Code and Docker installed, you can click the badge above 
     - View GraphiQL, an in-browser IDE, to explore your site's data and
 schema at http://localhost:8000/___graphql
 
+>Tip: If you’re seeing unexpected behavior (like maybe your local development server isn’t picking up your new changes), you can run `gatsby clean` from the command line to delete the cache and start fresh on your next build. <br> <br>Don’t have the Gatsby CLI globally installed? Try running `npx gatsby clean` instead.
+
 ---
 <details>
   <summary align="left" style="color:yellow;"> 
@@ -281,5 +283,9 @@ After you update your `gatsby-config.js` file, your local development server has
 ## Query for Data with GraphQL
 
 [How To GraphQL][graphqltutorial] is a free tutorial that teaches you the fundamentals.
+
+## Create Pages programatically 
+
+> Note: In Gatsby, query variables can only be used inside of page queries. (You can’t use them with the useStaticQuery hook.)
 
 </details>
