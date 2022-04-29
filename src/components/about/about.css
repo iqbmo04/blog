@@ -1,11 +1,11 @@
 .about__container {
     display: grid;
     grid-template-columns: 35% 50%;
-    gap: 15%
+    gap: 15%;
 }
 
 .about__profile {
-    width: 100%;
+    width: 80%;
     aspect-ratio: 1/1;
     border-radius: 2rem;
     background: linear-gradient(
