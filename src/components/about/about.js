@@ -19,7 +19,8 @@ const About = () => {
             </div>
           </div>
           <div className='about__content'>
-            <div className='about__cards'>
+
+            {/* <div className='about__cards'>
 
               <article className='about__card'>
                 <FaAward className='about__card-icon' />
@@ -39,14 +40,14 @@ const About = () => {
                 <small>DevOps | Cloud | Modern-Apps</small>
               </article>
 
-            </div>
+            </div> */}
 
             <p>
               Digital technologies professional, passionate, curious and learning about modern technologies. 
               Currently working on DevOps, Automation, Migration and Modernization of existing business applications and IT processes with cloud first approach for a giant financial services client in Europe.
             </p>
 
-            <a href="#contact" className='btn btn-primary'>Let's Talk</a>
+            <a target="_blank" href="https://twitter.com/mechDeveloper1" className='btn btn-primary'>Connect</a>
             
           </div>
         </div>
