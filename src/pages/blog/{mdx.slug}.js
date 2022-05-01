@@ -2,27 +2,38 @@ import * as React from 'react'
 import { graphql } from 'gatsby'
 import { MDXRenderer } from 'gatsby-plugin-mdx'
 import { GatsbyImage, getImage } from 'gatsby-plugin-image'
-import Layout from '../../components/layout'
+import Layout from '../../components/layout/layout'
 
 const BlogPost = ({ data }) => {
     const image = getImage(data.mdx.frontmatter.hero_image)
 
     return (
         <Layout pageTitle={data.mdx.frontmatter.title}>
-            <p>Posted: {data.mdx.frontmatter.date}</p>
-            <GatsbyImage
-                image={image}
-                alt={data.mdx.frontmatter.hero_image_alt}
-            />
-            <p>
-                Photo Credit:{" "}
-                <a href={data.mdx.frontmatter.hero_image_credit_link}>
-                    {data.mdx.frontmatter.hero_image_credit_text}
-                </a>
-            </p>
-            <MDXRenderer>
-                {data.mdx.body}
-            </MDXRenderer>
+            <section id='blog'>
+                <div className='container blog__container'>
+                    <div className='container blog__head'>
+                        <p>Posted: {data.mdx.frontmatter.date}</p>
+                        <h1>{data.mdx.frontmatter.title}</h1>
+                        <div className='container blog__hero-image'>
+                        {/* <GatsbyImage
+                            image={image}
+                            alt={data.mdx.frontmatter.hero_image_alt}
+                        /> */}
+                        {/* <p>
+                            Photo Credit:{" "}
+                            <a href={data.mdx.frontmatter.hero_image_credit_link}>
+                                {data.mdx.frontmatter.hero_image_credit_text}
+                            </a>
+                        </p> */}
+                        </div>
+                    </div>
+                    <div className='container blog__content'>
+                        <MDXRenderer>
+                            {data.mdx.body}
+                        </MDXRenderer>
+                    </div>
+                </div>
+            </section>
         </Layout>
     )
 }

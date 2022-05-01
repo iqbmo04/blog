@@ -1,15 +1,25 @@
 import * as React from 'react'
-import Layout from '../components/layout'
-import { StaticImage } from 'gatsby-plugin-image'
+import Layout from '../components/layout/layout'
+import Socials from '../components/socials/socials'
+import Twitch from '../components/twitch/twitch'
+import About from '../components/about/about'
+// import Experience from '../components/experience/experience'
+// import Services from '../components/services/services'
+// import Portfolio from '../components/portfolio/portfolio'
+// import Testimonials from '../components/testimonials/testimonials'
+// import Contact from '../components/contact/contact'
 
 const IndexPage = () => {
   return (
-    <Layout pageTitle="Home Page">
-      <p>I'm making this by following the Gatsby Tutorial.</p>
-      <StaticImage
-        alt="Ashish Singh Baghel's Profile pic"
-        src="../images/profile.png"
-      />   
+    <Layout pageTitle="Home">
+      <Socials />
+      <Twitch />
+      <About />
+      {/* <Experience /> */}
+      {/* <Services /> */}
+      {/* <Portfolio /> */}
+      {/* <Testimonials /> */}
+      {/* <Contact /> */}
     </Layout>
   )
 }

@@ -1,0 +1,22 @@
+.twitch__container {
+    margin: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.twitch__container-content {
+    margin: auto;
+    text-align: center;
+    max-width: 980px;
+    color: var(--color-light);
+}
+
+/* =========== MEDIA QUERIES (SMALL DEVICES) =========== */
+@media screen and (max-width: 600px) {
+    .twitch__container {
+        display: flex;
+        flex-direction: column;
+        row-gap: 1.5rem;
+    }
+}

@@ -1,0 +1,21 @@
+/* socials{
+    justify-content: center;
+} */
+
+.socials__container {
+    max-width: 960px;
+    display: grid;
+    margin: auto;
+    text-align: center;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 2rem;
+}
+
+/* =========== MEDIA QUERIES (SMALL DEVICES) =========== */
+@media screen and (max-width: 600px) {
+    .socials__container {
+        display: flex;
+        flex-direction: column;
+        row-gap: 1.5rem;
+    }
+}
