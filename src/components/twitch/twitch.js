@@ -9,8 +9,6 @@ const Twitch = () => {
             <div className='twitch__container-player'>
                 <iframe
                     src="https://player.twitch.tv?channel=ashishsinghbaghel&parent=techhackswithash.com&parent=127.0.0.1"
-                    height="360"
-                    width="640"
                     allowfullscreen>
                 </iframe>
 
