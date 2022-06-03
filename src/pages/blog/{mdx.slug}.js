@@ -13,7 +13,7 @@ const BlogPost = ({ data }) => {
                 <div className='container blog__container'>
                     <div className='container blog__head'>
                         <p>Posted: {data.mdx.frontmatter.date}</p>
-                        <h1>{data.mdx.frontmatter.title}</h1>
+                        {/* <h1>{data.mdx.frontmatter.title}</h1> */}
                         <div className='container blog__hero-image'>
                         {/* <GatsbyImage
                             image={image}
