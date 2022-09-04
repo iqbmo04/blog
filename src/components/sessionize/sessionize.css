@@ -1,0 +1,14 @@
+.sessionize__container {
+    max-width: 960px;
+    margin: auto;
+    text-align: center;
+}
+
+/* =========== MEDIA QUERIES (SMALL DEVICES) =========== */
+@media screen and (max-width: 600px) {
+    .sessionize__container {
+        display: flex;
+        flex-direction: column;
+        row-gap: 1.5rem;
+    }
+}
