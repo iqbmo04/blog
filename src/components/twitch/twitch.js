@@ -7,11 +7,8 @@ const Twitch = () => {
         <h2>Twitch</h2>
         <div className='container twitch__container'>
             <div className='twitch__container-player'>
-                <iframe
-                    src="https://player.twitch.tv?channel=ashishsinghbaghel&parent=techhackswithash.com&parent=127.0.0.1"
-                    allowfullscreen>
+                <iframe src="https://player.twitch.tv?channel=ashishsinghbaghel&parent=techhackswithash.com&parent=127.0.0.1">
                 </iframe>
-
             </div>
             
             <div className='twitch__container-content'>

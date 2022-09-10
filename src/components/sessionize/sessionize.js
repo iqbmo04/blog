@@ -15,8 +15,13 @@ const Sessionize = () => {
                     <div className='delivered__sessions_session'>
                         <h3>Containers as a Development Environment by Ashish Singh Baghel</h3>
                         <h4>Date Aug 24, 2022</h4>
-                        <div>
-                            <iframe width="560" height="315" src="https://www.youtube.com/embed/xZlRLRH7y-8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <div className='youtube__container-player'>
+                            <iframe 
+                                width="100%" 
+                                height="100%" 
+                                src="https://www.youtube.com/embed/xZlRLRH7y-8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen
+                            >
+                            </iframe>
                         </div>
                     </div>
                 </div>
