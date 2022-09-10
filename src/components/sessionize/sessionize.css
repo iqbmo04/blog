@@ -4,11 +4,21 @@
     text-align: center;
 }
 
+.youtube__container-player iframe{
+    width: 560px;
+    height: 315px;
+}
+
 /* =========== MEDIA QUERIES (SMALL DEVICES) =========== */
 @media screen and (max-width: 600px) {
     .sessionize__container {
         display: flex;
         flex-direction: column;
         row-gap: 1.5rem;
+    }
+
+    .youtube__container-player iframe{
+        width: auto;
+        height: auto;
     }
 }
