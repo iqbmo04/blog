@@ -1,11 +1,11 @@
 import * as React from 'react'
 import { graphql } from 'gatsby'
 import { MDXRenderer } from 'gatsby-plugin-mdx'
-import { GatsbyImage, getImage } from 'gatsby-plugin-image'
+// import { GatsbyImage, getImage } from 'gatsby-plugin-image'
 import Layout from '../../components/layout/layout'
 
 const BlogPost = ({ data }) => {
-    const image = getImage(data.mdx.frontmatter.hero_image)
+    // const image = getImage(data.mdx.frontmatter.hero_image)
 
     return (
         <Layout pageTitle={data.mdx.frontmatter.title}>

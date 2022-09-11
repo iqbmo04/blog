@@ -1,8 +1,8 @@
 import * as React from 'react'
 import ProfileImage from '../../images/profile.png'
-import {FaAward} from 'react-icons/fa'
-import {FiUsers} from 'react-icons/fi'
-import {VscFolderLibrary} from 'react-icons/vsc'
+// import {FaAward} from 'react-icons/fa'
+// import {FiUsers} from 'react-icons/fi'
+// import {VscFolderLibrary} from 'react-icons/vsc'
 
 import './about.css'
 
@@ -47,7 +47,7 @@ const About = () => {
               Currently working on DevOps, Automation, Migration and Modernization of existing business applications and IT processes with cloud first approach for a giant financial services client in Europe.
             </p>
 
-            <a target="_blank" href="https://twitter.com/mechDeveloper1" className='btn btn-primary'>Connect</a>
+            <a target="_blank" rel="noreferrer" href="https://twitter.com/mechDeveloper1" className='btn btn-primary'>Connect</a>
             
           </div>
         </div>

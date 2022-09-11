@@ -1,6 +1,6 @@
 import * as React from 'react'
-import Cta from './cta/cta'
-import Socials from './socials/socials'
+// import Cta from './cta/cta'
+// import Socials from './socials/socials'
 // import { StaticImage } from 'gatsby-plugin-image'
 import './header.css'
 
