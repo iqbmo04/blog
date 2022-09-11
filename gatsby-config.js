@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Ashish Singh Baghel's Portfolio and Blog`,
+    title: `Ashish Singh Baghel Portfolio and Blog`,
     siteUrl: `https://www.techhackswithash.com`
   },
   plugins: [

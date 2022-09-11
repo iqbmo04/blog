@@ -1,6 +1,6 @@
 import * as React from 'react'
 import Header from '../header/header'
-// import Nav from '../nav/nav'
+import Nav from '../nav/nav'
 import Footer from '../footer/footer'
 // import { 
 //   // Link, 
@@ -22,9 +22,9 @@ const Layout = ({ pageTitle, children }) => {
   // `)
 
   return (
-    <div >
+    <div className='layout'>
+      <Nav />
       <Header />
-      {/* <Nav /> */}
       <main>
         {children}
       </main>
