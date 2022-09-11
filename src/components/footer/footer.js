@@ -17,11 +17,11 @@ const Footer = () => {
           {/* <li> <a href='#contact'> Contact </a> </li> */}
         </ul>
         <div className='footer__socials'>
-          <a target="_blank" href='https://www.linkedin.com/in/baghelashish/'> <BsLinkedin /> </a>
-          <a target="_blank" href='https://github.com/mechdeveloper'> <BsGithub /> </a>
-          <a target="_blank" href='https://www.youtube.com/channel/UCJ7uLE5xaKA7qScKSX5Z_mw'> <BsYoutube />  </a>
-          <a target="_blank" href='https://twitter.com/mechDeveloper1'> <BsTwitter /> </a>
-          <a target="_blank" href='https://medium.com/@mechdeveloper'> <BsMedium /> </a>
+          <a target="_blank" rel="noreferrer" href='https://www.linkedin.com/in/baghelashish/'> <BsLinkedin /> </a>
+          <a target="_blank" rel="noreferrer" href='https://github.com/mechdeveloper'> <BsGithub /> </a>
+          <a target="_blank" rel="noreferrer" href='https://www.youtube.com/channel/UCJ7uLE5xaKA7qScKSX5Z_mw'> <BsYoutube />  </a>
+          <a target="_blank" rel="noreferrer" href='https://twitter.com/mechDeveloper1'> <BsTwitter /> </a>
+          <a target="_blank" rel="noreferrer" href='https://medium.com/@mechdeveloper'> <BsMedium /> </a>
         </div>
         
         <div className='footer__copyright'>
