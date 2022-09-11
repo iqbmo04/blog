@@ -9,19 +9,12 @@ import About from '../components/about/about'
 // import Testimonials from '../components/testimonials/testimonials'
 // import Contact from '../components/contact/contact'
 
-const IndexPage = () => {
+const AboutPage = () => {
   return (
-    <Layout pageTitle="Home">
-      <Socials />
-      <Twitch />
+    <Layout pageTitle="About">    
       <About />
-      {/* <Experience /> */}
-      {/* <Services /> */}
-      {/* <Portfolio /> */}
-      {/* <Testimonials /> */}
-      {/* <Contact /> */}
     </Layout>
   )
 }
 
-export default IndexPage
+export default AboutPage
