@@ -1,11 +1,11 @@
 import * as React from 'react'
 import Layout from '../components/layout/layout'
-import Sessionize from '../components/sessionize/sessionize'
+import Event from '../components/event/event'
 
 const EventsPage = () => {
   return (
     <Layout pageTitle="Events">    
-        <Sessionize/>
+        <Event/>
     </Layout>
   )
 }
