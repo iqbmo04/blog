@@ -3,7 +3,7 @@ import Layout from '../components/layout/layout'
 import Socials from '../components/socials/socials'
 import Twitch from '../components/twitch/twitch'
 import About from '../components/about/about'
-import Sessionize from '../components/sessionize/sessionize'
+// import Sessionize from '../components/sessionize/sessionize'
 // import Experience from '../components/experience/experience'
 // import Services from '../components/services/services'
 // import Portfolio from '../components/portfolio/portfolio'
@@ -13,10 +13,10 @@ import Sessionize from '../components/sessionize/sessionize'
 const IndexPage = () => {
   return (
     <Layout pageTitle="Home">
-      <Sessionize/>
+      {/* <Sessionize/> */}
       <Socials />
       <Twitch />
-      <About />
+      {/* <About /> */}
       {/* <Experience /> */}
       {/* <Services /> */}
       {/* <Portfolio /> */}
